@@ -1,0 +1,49 @@
+{
+    "enquestes": [
+        {
+            "id": 1,
+            "titol": "Satisfacció amb el servei d'atenció",
+            "activa": true,
+            "preguntes": [
+                {
+                    "ordre": 1,
+                    "text": "Com valores l'atenció rebuda?",
+                    "tipus": "opcio_multiple",
+                    "opcions": [
+                        "Molt bona",
+                        "Bona",
+                        "Regular",
+                        "Dolenta"
+                    ]
+                },
+                {
+                    "ordre": 2,
+                    "text": "Què milloraries del servei?",
+                    "tipus": "text_lliure"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "titol": "Preferències de la plataforma web",
+            "activa": false,
+            "preguntes": [
+                {
+                    "ordre": 1,
+                    "text": "Quina secció utilitzes més?",
+                    "tipus": "opcio_multiple",
+                    "opcions": [
+                        "Inici",
+                        "Notícies",
+                        "Contacte"
+                    ]
+                },
+                {
+                    "ordre": 2,
+                    "text": "Quina funcionalitat t'agradaria afegir?",
+                    "tipus": "text_lliure"
+                }
+            ]
+        }
+    ]
+}
